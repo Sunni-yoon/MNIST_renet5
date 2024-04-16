@@ -267,13 +267,10 @@ def main():
     """
     Regularized LeNet5 model
     """
-    # 3)
     regularized_lenet_model = LeNet5_regularization().to(device)
 
-    # 4)
     optimizer = torch.optim.SGD(regularized_lenet_model.parameters(), lr=learning_rate, momentum=mommentum, weight_decay=0.001)
 
-    # 5)
     criterion = torch.nn.CrossEntropyLoss().to(device)
 
     lr_time = time.time()
@@ -294,7 +291,7 @@ def main():
         re_tst_loss_avg.append(re_tst_loss)
 
         print(
-            f'\nCustom Model\n'
+            f'\Regularized Lenet Model\n'
             f'{epoch + 1} epochs\n'
             f'training loss: {re_trn_loss}\n'
             f'training accuracy: {re_trn_acc}\n'
