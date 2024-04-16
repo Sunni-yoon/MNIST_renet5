@@ -24,9 +24,6 @@ extract_and_show_image_from_tar_by_index(tar_path)
 warnings.filterwarnings("ignore")
 
 
-transform = transforms.Compose([transforms.ToTensor(),
-                                    transforms.Normalize([0.1307], [0.3081])])
-
 class MNIST(Dataset):
     """ MNIST dataset
 
@@ -55,10 +52,10 @@ class MNIST(Dataset):
         self.numbers = [os.path.basename(i)[:5] for i in self.img_data]
         self.test = test
 
-                # Define transformations
+        # Define transformations
         self.transform = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Normalize([0.1307], [0.3081])
+            transforms.Normalize([0.1307], [0.3081]) 
         ])
 
     def __len__(self):
