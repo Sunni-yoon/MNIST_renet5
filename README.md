@@ -6,9 +6,9 @@ Notice
   
   --------------------------------------------------------------------------------------
 
-```main.py``` : 모델 학습 & 테스트 전체
-```dataset.py``` : MNIST 데이터셋 전처리
-```model.py``` : LeNet-5, Custom MLP, Regularized LeNet-5 세가지 모델 구현
+```main.py``` : 모델 학습 & 테스트 전체 <br/>
+```dataset.py``` : MNIST 데이터셋 전처리 <br/>
+```model.py``` : LeNet-5, Custom MLP, Regularized LeNet-5 세가지 모델 구현 <br/>
 
 In this assignment, you build a neural network classifier with MNIST dataset. For a detailed description about MNIST dataset, please refer to [this link](http://yann.lecun.com/exdb/mnist/).
 
