@@ -12,7 +12,7 @@ Notice
 ```main.py``` : 모델 학습 & 테스트 전체 <br/>
 ```dataset.py``` : MNIST 데이터셋 전처리 <br/>
 ```model.py``` : LeNet-5, Custom MLP, Regularized LeNet-5 세가지 모델 구현 <br/>
-```model.py``` : main 결과값 plot 시각화 <br/>
+```plot_visualization.py``` : main 결과값 plot 시각화 <br/>
 
 --------------------------------------------------------------------------------------
 
