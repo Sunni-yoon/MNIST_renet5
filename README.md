@@ -3,6 +3,7 @@
 Notice
 - train.tar의 용량이 커서 data foldar에는 test.tar과 동일한 파일로 대체하여 업로드 하였습니다.
 - 모델이 돌아가는 것을 확인하는 용으로 올려놓았으며, 실제 성능과 차이가 있을 수 있습니다.
+- assignment report.pdf 원본 : https://ubiquitous-sparrow-801.notion.site/Assignment_Report-102dfe486ffc403e80cd12692cfc98fc?pvs=4
   
 --------------------------------------------------------------------------------------
 ## 파일 설명
