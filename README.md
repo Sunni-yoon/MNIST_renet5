@@ -12,5 +12,5 @@ In this assignment, you build a neural network classifier with MNIST dataset. Fo
     6. (Report) Employ at least more than two regularization techniques to improve LeNet-5 model. You can use whatever techniques if you think they may be helpful to improve the performance. Verify that they actually help improve the performance. Keep in mind that when you employ the data augmentation technique, it should be applied only to training data. So, the modification of provided `MNIST` class in `dataset.py` may be needed.
 - **Note that the details of training configuration which are not mentioned in this document and the comments can be defined yourself.** For example, decide how many epochs you will train the model.
 
-## train.tar의 용량이 커서 data foldar에는 test.tar과 동일한 파일로 대체하여 업로드하였습니다.
-## 모델이 돌아가는 것을 확인하는 용으로 올려놓았으며, 실제 성능과 차이가 있을 수 있습니다.
+- train.tar의 용량이 커서 data foldar에는 test.tar과 동일한 파일로 대체하여 업로드하였습니다.
+- 모델이 돌아가는 것을 확인하는 용으로 올려놓았으며, 실제 성능과 차이가 있을 수 있습니다.
