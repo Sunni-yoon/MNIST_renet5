@@ -5,6 +5,11 @@ Notice
 - 모델이 돌아가는 것을 확인하는 용으로 올려놓았으며, 실제 성능과 차이가 있을 수 있습니다.
   
   --------------------------------------------------------------------------------------
+  
+main.py: 모델 학습 & 테스트 전체
+dataset.py: MNIST 데이터셋 전처리
+model.py: LeNet-5, Custom MLP, Regularized LeNet-5 세가지 모델 구현
+
 In this assignment, you build a neural network classifier with MNIST dataset. For a detailed description about MNIST dataset, please refer to [this link](http://yann.lecun.com/exdb/mnist/).
 
 - Requirements
