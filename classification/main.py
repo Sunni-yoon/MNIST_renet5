@@ -4,7 +4,6 @@ import torch
 from torchvision import transforms
 import time
 from torchsummary import summary
-import matplotlib.pyplot as plt
 
 
 def train(model, trn_loader, device, criterion, optimizer):
@@ -136,13 +135,9 @@ def main():
     """
     LeNet-5 model
     """
-    # 3)
+    
     lenet_model = LeNet5().to(device)
-
-    # 4)
     optimizer = torch.optim.SGD(lenet_model.parameters(), lr=learning_rate, momentum=mommentum)
-
-    # 5)
     criterion = torch.nn.CrossEntropyLoss().to(device)
 
     lr_time = time.time()
@@ -175,6 +170,7 @@ def main():
         if epoch + 1 == 10:
             print(f'LeNet-5 model execution time : {time.time() - lr_time}')
 
+    # model summary 출력
     print("LeNet-5 Model Summary")
     summary(lenet_model.to(device), (1, 28, 28))
 
@@ -186,13 +182,9 @@ def main():
     """
     Custom model
     """
-    # 3)
+    
     custom_model = CustomMLP().to(device)
-
-    # 4)
     optimizer = torch.optim.SGD(custom_model.parameters(), lr=learning_rate, momentum=mommentum)
-
-    # 5)
     criterion = torch.nn.CrossEntropyLoss().to(device)
 
     lr_time = time.time()
@@ -222,6 +214,7 @@ def main():
         if epoch + 1 == 10:
             print(f'Custom model execution time : {time.time() - lr_time}')
 
+    # model summary 출력
     print("Custom Model Summary")
     summary(custom_model.to(device), (1, 28, 28))
 
@@ -233,10 +226,9 @@ def main():
     """
     Regularized LeNet5 model
     """
+    
     regularized_lenet_model = LeNet5_regularization().to(device)
-
     optimizer = torch.optim.SGD(regularized_lenet_model.parameters(), lr=learning_rate, momentum=mommentum, weight_decay=0.001)
-
     criterion = torch.nn.CrossEntropyLoss().to(device)
 
     lr_time = time.time()
@@ -267,6 +259,7 @@ def main():
         if epoch + 1 == 10:
             print(f'Regularized LeNet-5 model execution time : {time.time() - lr_time}')
 
+    # model summary 출력
     print("Regularized LeNet-5 Model Summary")
     summary(regularized_lenet_model.to(device), (1, 28, 28))
 
