@@ -1,7 +1,7 @@
 # MNIST_classification_renet5 (인공신경망과 딥러닝)
 
 Notice
-- train.tar의 용량이 커서 data foldar에는 test.tar과 동일한 파일로 대체하여 업로드 하였습니다.
+- train.tar의 용량이 커서 data폴더에는 test.tar과 동일한 파일로 대체하여 업로드 하였습니다.
 - train.tar(실제로는 test.tar) 모델이 돌아가는 것을 확인하는 용으로 올려놓았으며, 실제 성능과 차이가 있을 수 있습니다.
 - assignment report : https://ubiquitous-sparrow-801.notion.site/Assignment_Report-102dfe486ffc403e80cd12692cfc98fc?pvs=4
 - 혹시 몰라 pdf도 첨부하였지만, 해당 링크로 들어가주시면 감사하겠습니다.
