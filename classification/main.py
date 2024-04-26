@@ -278,3 +278,7 @@ def main():
 
     print(tst_loss_avg)
     print(tst_acc_avg)
+
+
+if __name__ == '__main__':
+    main()
