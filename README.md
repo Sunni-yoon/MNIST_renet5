@@ -1,4 +1,4 @@
-# MNIST_classification_renet5 (인공신경망과 딥러닝)
+# MNIST_classification_renet5
 
 Notice
 - train.tar의 용량이 커서 data폴더에는 test.tar과 동일한 파일로 대체하여 업로드 하였습니다.
